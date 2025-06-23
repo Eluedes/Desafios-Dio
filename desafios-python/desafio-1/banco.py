@@ -15,7 +15,8 @@ LIMITE_SAQUES = 3  # Saques permitidos por sessão
 
 
 while True:
-    opcao = int(input(menu))
+        
+    opcao = input(menu)
 
 
     if opcao == "1":
